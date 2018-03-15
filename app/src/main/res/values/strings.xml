@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Indy 500 Trivia</string>
+    <string name="intro">Welcome to the Indy 500 Trivia App.  Answer the following questions, then click \"submit\" to check your answers</string>
+    <string name="year">In what year was the first Indianapolis 500?</string>
+    <string name="distance">How far is one lap around the oval?</string>
+    <string name="distance2">2.0 miles</string>
+    <string name="distance25">2.5 miles</string>
+    <string name="distance30">3.0 miles</string>
+    <string name="lbldriver">Which of the following women have competed in the Indianapolis 500?</string>
+    <string name="driver1">Janet Guthrie</string>
+    <string name="driver2">Sarah Fisher</string>
+    <string name="driver3">Pippa Mann</string>
+    <string name="lbltrophy">What is the name of the trophy presented to the winner of the Indianapolis 500?</string>
+    <string name="counter1">1.</string>
+    <string name="counter2">2.</string>
+    <string name="counter3">3.</string>
+    <string name="counter4">4.</string>
+    <string name="reset">Reset</string>
+    <string name="submit">Submit</string>
+    <string-array name="trophy_array">
+            <item>--Select One--</item>
+            <item>America\'s Cup</item>
+            <item>Borg-Warner Trophy</item>
+            <item>Heisman Trophy</item>
+            <item>Ryder Cup</item>
+            <item>Stanley Cup</item>
+            <item>Vince Lombardi Trophy</item>
+        </string-array>
+</resources>

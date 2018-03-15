@@ -1,0 +1,203 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/custom_toast_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.ims.MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/basic_layout"
+            android:layout_marginRight="@dimen/basic_layout"
+            android:layout_marginTop="@dimen/basic_layout"
+            android:background="@color/colorHeader"
+            android:padding="@dimen/small_layout"
+            android:text="@string/intro"
+            android:textColor="@color/colorHeaderText"
+            android:textSize="@dimen/font_size" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/basic_layout"
+                android:layout_marginRight="@dimen/basic_layout"
+                android:layout_marginTop="@dimen/small_layout"
+                android:text="@string/counter1"
+                android:textSize="@dimen/font_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/basic_layout"
+                android:layout_marginTop="@dimen/small_layout"
+                android:text="@string/year"
+                android:textSize="@dimen/font_size" />
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/txtYear"
+            android:layout_width="@dimen/large_layout"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_layout"
+            android:layout_marginLeft="@dimen/large_layout"
+            android:layout_marginRight="@dimen/basic_layout"
+            android:inputType="number" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/basic_layout"
+                android:layout_marginRight="@dimen/basic_layout"
+                android:layout_marginTop="@dimen/small_layout"
+                android:text="@string/counter2"
+                android:textSize="@dimen/font_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/basic_layout"
+                android:layout_marginTop="@dimen/small_layout"
+                android:text="@string/distance"
+                android:textSize="@dimen/font_size" />
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_layout"
+            android:layout_marginLeft="@dimen/large_layout"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/distance2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="@string/distance2" />
+
+            <RadioButton
+                android:id="@+id/distance25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/distance25" />
+
+            <RadioButton
+                android:id="@+id/distance3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/distance30" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/basic_layout"
+                android:layout_marginRight="@dimen/basic_layout"
+                android:layout_marginTop="@dimen/small_layout"
+                android:text="@string/counter3"
+                android:textSize="@dimen/font_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/basic_layout"
+                android:layout_marginTop="@dimen/small_layout"
+                android:text="@string/lbldriver"
+                android:textSize="@dimen/font_size" />
+        </LinearLayout>
+
+
+        <CheckBox
+            android:id="@+id/driver1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/large_layout"
+            android:layout_marginRight="@dimen/basic_layout"
+            android:text="@string/driver1" />
+
+        <CheckBox
+            android:id="@+id/driver2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/large_layout"
+            android:layout_marginRight="@dimen/basic_layout"
+            android:text="@string/driver2" />
+
+        <CheckBox
+            android:id="@+id/driver3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_layout"
+            android:layout_marginLeft="@dimen/large_layout"
+            android:layout_marginRight="@dimen/basic_layout"
+            android:text="@string/driver3" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/basic_layout"
+                android:layout_marginRight="@dimen/basic_layout"
+                android:layout_marginTop="@dimen/small_layout"
+                android:text="@string/counter4"
+                android:textSize="@dimen/font_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/basic_layout"
+                android:layout_marginTop="@dimen/small_layout"
+                android:text="@string/lbltrophy"
+                android:textSize="@dimen/font_size" />
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spinner_trophy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/large_layout" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_submit_answer"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/large_layout"
+                android:layout_marginLeft="@dimen/basic_layout"
+                android:layout_marginRight="@dimen/basic_layout"
+                android:layout_marginTop="@dimen/large_layout"
+                android:onClick="btnGradeQuiz"
+                android:text="@string/submit" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
