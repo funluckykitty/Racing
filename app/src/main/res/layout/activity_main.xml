@@ -210,8 +210,5 @@
                 android:onClick="btnReset"
                 android:text="@string/reset" />
         </LinearLayout>
-
-
-
     </LinearLayout>
 </ScrollView>
